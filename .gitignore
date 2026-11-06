@@ -1,0 +1,21 @@
+# local / user data
+clhook.ini
+clhook.log
+watches.json
+pos_slots.json
+backup_saves/
+recordings/
+screens/
+# game-derived files: never commit (unpacked exe, memory dumps, decompiled game code)
+dump/
+*.bin
+*.exe
+# build output (the DLL ships as a release asset)
+build/
+*.obj
+*.exp
+*.lib
+*.dll
+# python
+__pycache__/
+*.pyc

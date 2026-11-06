@@ -1,0 +1,6 @@
+* text=auto
+*.bat text eol=crlf
+*.cpp text
+*.h text
+*.py text
+*.md text
